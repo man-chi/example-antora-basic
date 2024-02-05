@@ -9,7 +9,7 @@
 
 {description}
 
-image::ccheart_black.png[My Image]
+image::https://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png[My Image]
 
 == Template for the Read the Docs tutorial in AsciiDoc
 
