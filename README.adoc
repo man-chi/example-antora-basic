@@ -13,3 +13,7 @@ This is a template for creating an example documentation inspired by https://doc
 - update nav.adoc
 - update index.adoc
 - update section/adoc
+
+== Demo Site
+
+live demo is available on https://example-antora-basic.readthedocs.io[example-antora-basic]
