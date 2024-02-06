@@ -10,6 +10,7 @@
 {description}
 
 == README
+
 This is a template for creating an example documentation inspired by https://docs.readthedocs.io/en/stable/examples.html[readthedocs example project] using AsciiDoc markup and Kroki diagramming.
 
 == How to use this template
@@ -17,19 +18,22 @@ This is a template for creating an example documentation inspired by https://doc
 - in github, create repo using this template `https://github.com/man-chi/example-antora-basic`
 - in IDE, create new project from github repo
 - in source code, edit `.readthedocs.yaml:`
-    - update `site: title:`
-    - update `sources: url: <your github repo url>`
+- update `site: title:`
+- update `sources: url: <your github repo url>`
 - in `antora/docs/modules/ROOT/pages`, create new adoc
-- in `nav.adoc`,  create new navigation menu under `section/new.adoc`
+- in `nav.adoc`, create new navigation menu under `section/new.adoc`
 
 == Template for the Read the Docs tutorial in AsciiDoc
 
 This GitHub template use Antora framework to generate site structure with examples using AsciiDoc markup and Kroki diagram
 
-== Addition information for asciidoc:
+== Credits:
 
-* https://asciidoc.org/ - a plain text markup language for writing technical content.
-* https://asciidoctor.org/ - text processor for parsing AsciiDoc format
-* https://antora.org/ - documentation site generator for asciidoctor
-* https://github.com/asciidoctor/asciidoctor-kroki - asciidoctor extension for Kroki (diagram as code)
-* asciidoctor/asciidoctor-intellij-plugin - plugin for intellij
+This template is mainly based on the work from the following excellent open source projects:
+
+* https://github.com/readthedocs/readthedocs.org[ Readthedocs - hosting service for documentation]
+* https://asciidoc.org[ Asciidoc - plain text markup language for writing content]
+* https://asciidoctor.org[ AsciiDoctor - text processor for parsing AsciiDoc format]
+* https://antora.org[ Antora - documentation site generator for asciidoctor]
+* https://github.com/asciidoctor/asciidoctor-kroki[ asciidoctor-kroki -  asciidoctor extension for Kroki (diagram as code)]
+* https://github.com/asciidoctor/asciidoctor-intellij-plugin[ asciidoctor-intellij-plugin - Asciidoc plugin for intellij]
