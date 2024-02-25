@@ -9,27 +9,28 @@
 
 {description}
 
-== README
+== Template for the Read the Docs tutorial in AsciiDoc
 
-This is a template for creating an example documentation inspired by https://docs.readthedocs.io/en/stable/examples.html[readthedocs example project] using AsciiDoc markup and Kroki diagramming.
+This template is designed to guide you in creating comprehensive documentation that showcases examples and is inspired by https://docs.readthedocs.io/en/stable/examples.html[the Read the Docs example]. It utilizes AsciiDoc markup and Kroki diagramming, which allow you to create clear and concise diagrams to enhance your documentation.
+
+This template is readily available on GitHub and makes use of the Antora framework, which generates a well-organized site structure. The framework also comes with examples that demonstrate how to use AsciiDoc markup and Kroki diagramming to create effective documentation.
+
+By utilizing this template, you can create documentation that is easy to understand and visually appealing, making it an excellent resource for users seeking information on your project.
 
 == How to use this template
 
 - in github, create repo using this template `https://github.com/man-chi/example-antora-basic`
 - in IDE, create new project from github repo
 - in source code, edit `.readthedocs.yaml:`
-- update `site: title:`
-- update `sources: url: <your github repo url>`
-- in `antora/docs/modules/ROOT/pages`, create new adoc
+- update `site: title:` $YOUR_TITLE
+- update `sources: url: $YOUR_GITHUB_REPO_URL
+- in `antora/docs/modules/ROOT/pages`, create new.adoc
 - in `nav.adoc`, create new navigation menu under `section/new.adoc`
 
-== Template for the Read the Docs tutorial in AsciiDoc
-
-This GitHub template use Antora framework to generate site structure with examples using AsciiDoc markup and Kroki diagram
 
 == Credits:
 
-This template is mainly based on the work from the following excellent open source projects:
+This particular template owes its existence to the hard work and contribution of some truly exceptional open-source contributors, who have put in their valuable time and effort to make it a reality.
 
 * https://github.com/readthedocs/readthedocs.org[ Readthedocs - hosting service for documentation]
 * https://asciidoc.org[ Asciidoc - plain text markup language for writing content]
